@@ -132,7 +132,7 @@ const Navbar = () => {
               <a href={`/home/2`} className="block px-4 py-2 hover:bg-gray-100">
                 Item 2
               </a>
-              <a href={`home/3`} className="block px-4 py-2 hover:bg-gray-100">
+              <a href={`/home/3`} className="block px-4 py-2 hover:bg-gray-100">
                 Item 3
               </a>
             </div>
