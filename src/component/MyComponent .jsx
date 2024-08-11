@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';  // Import your Navbar component
+import image from "../../src/image/tesk.jpeg"
 
 const MyComponent = () => {
   return (
@@ -8,7 +9,7 @@ const MyComponent = () => {
         <Navbar />
       </div>
       <main className="relative z-0">
-        <img src="../src/assets/tesk.jpeg" alt="Background" className="w-full object-cover" style={{ height: '100vh' }} />
+        <img src={image} alt="Background" className="w-full object-cover" style={{ height: '100vh' }} />
         <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl text-white font-bold">
           Welcome to the website
         </h1>
